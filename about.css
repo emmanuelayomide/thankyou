@@ -1,0 +1,106 @@
+/* CSS for reducing carousel image size on larger screens */
+.colornext{
+    color: red;
+}
+@media (min-width: 992px) {
+    .couroselslidesection{
+        display: none;
+    }
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  
+   
+
+
+  }
+  .footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  
+ 
+  }
+  .breakline{
+    display: block;
+
+  }
+  .theSameColor{
+    color: rgba(0, 0, 255, 0.741);
+    font-weight: 500;
+  }
+  .flex2 li{
+    margin-top: 12px;
+  }
+  .subflex3 a{
+    color: rgba(0, 0, 0, 0.693);
+  }
+  .subflex3 a:hover{
+    color: rgb(0, 0, 0);
+  }
+  .flex2 a{
+    color: rgba(0, 0, 0, 0.693);
+  }
+  .flex2 a:hover{
+    color: black;
+
+  }
+  .flex3 li{
+    margin-top: 12px;
+  }
+  .flex3 a{
+    color: rgba(0, 0, 0, 0.693);
+  }
+  .flex3 a:hover{
+    color: black;
+
+  }
+
+  .special{
+    margin-top: 0;
+    padding: 0;
+    font-weight: 400;
+  }
+  .bitwo{
+    color: green;
+ 
+  
+  }
+  .emailboxbtn{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+   background-color: #fff;
+   box-shadow: 2px 2px 2px 2px #ffffff53;
+   
+  }
+  .subscribebtn{
+    color:white ;
+    background: rgba(46, 46, 237, 0.827);
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }.subscribebtn:hover{
+background-color: blue;
+transition: 0.2s ease-in-out;
+
+}
+.lastforsocialmedia{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socialmediaicon{
+display:flex;
+}
+.socialmediaicon li{
+  padding: 12px;
+}
+.generalcentealizedmap{
+  margin-top: 40px;
+}

@@ -1,0 +1,605 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+
+ 
+      font-family: "Work Sans", sans-serif;
+   
+}
+
+body{
+list-style-type: none;
+text-decoration: none;
+
+ 
+  
+}
+
+.imagaright{
+    margin-top:100px;
+    width: 500px;
+
+}
+.carborn{
+    color: red;
+   
+
+}
+
+.start{
+    margin-top:0;
+}
+.personal_Design{
+    color: blue;
+}
+.personal_Design:hover{
+    color: brown;
+}
+.personal_paragraph{
+    font-weight: 400;
+}
+#general{
+    width: 100%;
+    /* background-image: url("backgroundimage.webp"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.bigtext{
+    color: white;
+}
+.cntralized_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.digitalClock{
+    color: blue;
+}
+.slide{
+display: flex;
+justify-content:center;
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+margin-bottom: 70px;
+background-color: #fff;
+box-shadow: 5px 5px 5px 5px rgb(62, 224, 233);
+filter: drop-shadow(0 0 25px  rgb(62, 224, 233));
+}
+.boxlide{
+    width: 400px;
+    height:300px;
+    border: 1px solid black;
+    margin-top: 10px;
+   border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgb(224, 206, 240);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   margin-bottom: 25px;
+
+}
+.boxlide P{
+    text-align: center;
+}
+.imgs{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    filter: drop-shadow(0 0 25px  rgb(62, 224, 233));
+    
+
+    
+}
+.boxlide:hover{
+    border: 2px solid green;
+transition: ease-in-out 0.2s;
+
+}
+.line1{
+    width: 20%;
+}
+.flexline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+#personalCenter{
+    text-align: center;
+    font-weight: 500;
+}
+.generalcentealized{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centralized_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    display: block;
+}
+.ceosize{
+    width: 600px;
+    position: relative;
+}
+.ceoline{
+    position: relative;
+}
+.whatwedo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    padding-top: 20px;
+   
+
+}
+
+.whatwedo a{
+  
+    text-decoration: none;
+}
+.ceoname{
+    text-decoration: none;
+}
+#ceoandbriefintoduction{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.personaldetail{
+    width: 250px;
+    height: 160px;
+    background-color:#fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -41px;
+    left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0 0 25px rgb(0, 255, 94));
+
+}
+.personaldetail h4{
+    font-size: 18px;
+    color:rgb(19, 88, 216);
+}
+.personaldetail p{
+    font-size: 15px;
+    text-align: center;
+  
+}
+.meetOurTeam{
+    text-align: center;
+}
+.meetOurTeam > h4{
+    color:#0A1D56;
+}.meetOurTeam > p{
+
+}
+.teamImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.teamImage >img{
+    width: 100%;
+}
+.testimonialtopic{
+    text-align: center;
+}
+.testimonialtopic h5{
+    color: #0A1D56;
+}
+.testimonialtopic h2{
+    color:blueviolet;
+}
+.testimonials{
+    overflow-x: auto; 
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 10px;
+    padding-top: 25px;
+
+
+}
+.testimonialhead{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.testimonial1{
+    min-width: 320px;
+    height: 250px;
+    padding: 10px;
+    border: 1px dashed rgb(136, 0, 255);
+    border-radius: 5px;
+  
+   filter: drop-shadow(0 50px 50px rgb(42, 59, 210));
+    position: relative;
+
+ 
+}
+.quotecolor{
+    background-color:#0A1D56;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    z-index: 99999;
+ 
+}
+.fivestar{
+    width: 150px;
+}
+.reviewsentence{
+    font-size: 15px;
+}
+.fleximageandtext{
+    margin-top: 10px;
+    display: flex;
+  gap: 12px;
+
+}
+.fleximageandtext img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.fleximageandtext >div{
+    margin-top:5px;
+}
+.coding{
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
+.map{
+ 
+        width:100%;
+        margin-bottom: 40px;
+    
+}
+.welcomeMessage{
+    margin-top: 10px;
+}
+
+/* courosel section */
+.sizeofimage{
+    width: 40%;
+ 
+}
+#allofproduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.order1{
+    width: 100px;
+    filter: drop-shadow(0 0 25px #492E87);
+  
+    margin-top: 30px;
+}
+
+
+.orderpage{
+    
+    width: 400px;
+    height: 310px;
+    background-color:#fff;
+    padding: 20px;
+   background-color: #fff;
+   filter: drop-shadow(0 0 5px #492E87);
+   border-radius: 5px;
+
+  
+}
+.firstproduct{
+    display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#orderplaced{
+    color:#fff;
+    padding: 2px 12px 2px 12px;
+    background-color: #0A1D56;
+    border-radius: 5px;
+    outline: none;
+}
+#orderplaced:hover{
+    background-color:#fff ;
+    padding: 2px 12px 2px 12px;
+   color: #0A1D56;
+    border-radius: 5px;
+    outline: none;
+}
+p.priceamount{
+    font-size:30px;
+    font-weight: 800;
+    color: #0A1D56;
+}
+.description >h3{
+   color:#37B5B6;
+}
+.description li{
+    font-weight: bold;
+    color: #0A1D56;
+    margin-bottom: 4px;
+    font-size: 13px;
+
+}
+.btn1{
+    padding: 4px;
+    width: 100%;
+    font-size: 12px;
+}
+.activerolling{
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+/* model pup up button */
+.ordertotheline{
+    display: inline-block;
+}
+.ordercancle,.ordercancle1,.ordercancle2, .ordercancle3, .ordercancle4, .ordercancle5, .ordercancle6, .ordercancle7, .ordercancle8, .ordercancle9, .ordercancle10 , .ordercancle11, .ordercancle12 , .ordercancle13 , .ordercancle14 , .ordercancle15, .ordercancle16, .ordercancle17{
+    display: none;
+    display: none;
+   
+    }
+  
+   
+
+
+
+
+#users_Details, #users_Details1, #users_Details2, #users_Details3, #users_Details4, #users_Details5,  #users_Details6,  #users_Details7,  #users_Details8 ,  #users_Details9,  #users_Details10,  #users_Details11,  #users_Details12 ,  #users_Details13 ,  #users_Details14 ,  #users_Details15 ,  #users_Details16, #users_Details17{
+    display: none;
+    padding: 7px;
+    border-radius: 5px;
+    width: 100%;
+   
+
+
+
+}
+
+
+
+
+
+
+
+/* end of pup up */
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+  
+ 
+  
+  
+  
+  
+
+/* .................................FAQ */
+.faq-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .faq-item {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .faq-question:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .featuresSection1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    flex-wrap: wrap;
+  
+    gap: 20px;
+   
+
+  }
+  .boximage{
+    width: 200px;
+  }
+  .boximageonly{
+    width: 350px;
+  }
+ .imageline{
+    display: inline-block;
+ }
+ .linebreaktext{
+    display: block;
+ }
+.thank{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.tankssection{
+
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.checkmark{
+    width: 200px;
+}
+.thanksection2{
+    text-align: center;
+    background-color: #fff;
+}
+.thanksection2>img{
+    width: 150px;
+}
+.thanksection2>a{
+    text-decoration: none;
+    
+ }
+ .backbutton{
+    
+   
+   
+ }
+  
+
+
+
+
+
+/* end of courosel style */
+/* responsive Design */
+@media (max-width:450px){
+    .boxlide{
+        width: 320px;
+        height:300px;
+        border: 1px solid black;
+        margin-top: 10px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px 4px rgb(224, 206, 240);
+  
+      
+        cursor: pointer;
+    
+    }
+    .linebreaktext{
+        display: inline;
+      
+    }
+  .whatwedo{
+    padding-top: 0;
+  }
+    .imgs{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: relative;
+        top: -55px;
+        filter: drop-shadow(0 0 25px  rgb(62, 224, 233));
+        
+    
+        
+    }
+    .boxlide .titletext{
+        font-size: 15px;
+    }
+    .linebreak{
+        display: block;
+    }
+    .iformationline{
+     padding-left: 5px;
+     padding-right: 5px;
+    }
+    .iformationline h3{
+        font-size: 20px;
+    }
+    
+    .line{
+        display:inline;
+        font-size: 13px;
+    }
+}
+@media (max-width:920px){
+    .boxlide{
+       
+      margin-bottom: 20px;
+    }
+    .map{
+        
+        width:100%;
+    }
+    .personaldetail{
+     
+        }
+        .ceosize{
+            width:350px;
+          
+        }
+        .web_developer{
+            font-size: 12px;
+        }
+      
+}
+@media (min-width:900px){
+    .teamImage >img{
+        width: 700px;
+    }
+}
